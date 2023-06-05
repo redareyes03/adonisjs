@@ -16,3 +16,7 @@ export default class AppProvider {
     // Cleanup, since app is going down
   }
 }
+
+// 1. Crear un provider => node ace make:provider <name>
+// 2. Crear una clase de la libreria a usar => MyLibrary
+// 3. En el provider registrar dicha libreria en 
